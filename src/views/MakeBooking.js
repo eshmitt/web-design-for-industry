@@ -4,6 +4,8 @@ class MakeBooking extends React.Component {
     render () {
         return (
             <div>Make Booking</div>
+
+            
         )
     }
 }

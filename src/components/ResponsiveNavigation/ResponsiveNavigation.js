@@ -20,7 +20,7 @@ class ResponsiveNavigation extends React.Component{
     // };
     constructor(props) {
         super(props);
-        this.state={'NavItemActive':''}
+        this.state={NavItemActive:''}
     }
     activeitem=(x)=> {
         if(this.state.NavItemActive.length>0) {
@@ -33,7 +33,7 @@ class ResponsiveNavigation extends React.Component{
     render() {
         return (
             <nav>
-                <ul>"
+                <ul>
                     <NavContent item="Home" tolink="/" activec={this.activeitem} img src="home.svg" ></NavContent>
                     <NavContent item="Making Booking" tolink="/MakeBooking" activec={this.activeitem} img src="makebooking.svg" ></NavContent>
                     <NavContent item="My Bookings" tolink="/MyBookings" activec={this.activeitem} img src="mybooking"></NavContent>

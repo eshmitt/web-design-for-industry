@@ -2,7 +2,9 @@ import React from 'react'
 
 class RoomList extends React.Component {
     render () {
-        const orderedRooms = {...this.props.rooms}.sort((a, b) =>a.id > b.id);
+        console.log('this.props.rooms', this.props);
+        const orderedRooms = [];
+        // const orderedRooms = {...this.props.rooms}.sort((a, b) =>a.id > b.id);
         return (
             <div className="rooms-list">
                 <h3>Your Messages</h3>

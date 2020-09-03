@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
-import Button from "../Components/Button";
+import Button from "../components/Button";
 import styled from "styled-components";
 import { SocialIcon } from "react-social-icons";
 import { useForm } from 'react-hook-form'

@@ -49,22 +49,22 @@ function App() {
 			<div className="App">
 			<ResponsiveNavigation />
 		{/* <Header onClick={handleClick} open={menuOpen} /> */}
-			<Route path="/login" src= "${login}" id="login" views={Home}>
+			<Route path="/login" id="login">
 				<Login />
 			</Route>
-			<Route path="/home" src="${home}" id="home" views={Home}>
+			<Route path="/home" id="home">
 				<Home />
 			</Route>
-			<Route path="/my-bookings" src="${mybookings}" id="my-bookings" views={MyBookings}>
+			<Route path="/my-bookings" id="my-bookings">
 				<MyBookings />
 			</Route> 
-			<Route path="/make-booking" src="${makebooking}" id="make-booking" views={MakeBooking}>
+			<Route path="/make-booking" id="make-booking">
 				<MakeBooking />
 			</Route>
-			<Route path="/tasklist" src="${tasklist}" id="tasklist" views={Tasklist}>
+			<Route path="/tasklist" id="tasklist">
 				<Tasklist />
 			</Route>
-			<Route path="/messages" src="${messages}" id="messages" views={Messages}>
+			<Route path="/messages" id="messages">
 				<Messages />
 			</Route>
 			{/* <Calender /> */}
